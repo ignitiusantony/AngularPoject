@@ -1,0 +1,18 @@
+<div class="d-flex justify-content-center align-items-center vh-100 bg-dark">
+    <div class="card p-4 shadow-lg border-0" style="width: 22rem; background-color: #222;">
+        <h3 class="card-title text-center mb-4 text-warning">Login</h3>
+        <form>
+            <div class="mb-3">
+                <label for="username" class="form-label text-info">Username</label>
+                <input type="text" class="form-control bg-dark text-light border-info"
+                name="username" [(ngModel)]="username" placeholder="Enter username">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label text-info">Password</label>
+                <input type="password" class="form-control bg-dark text-light border-info"
+                name="password" [(ngModel)]="password" placeholder="Password">
+            </div>
+            <button class="btn btn-warning w-100 fw-bold text-dark" (click)="login()">Login</button>
+        </form>
+    </div>
+</div>

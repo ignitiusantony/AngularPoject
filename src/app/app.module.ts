@@ -17,6 +17,7 @@ import { EnquiryFormComponent } from './pages/home/enquiry-form/enquiry-form.com
 import { ProjectItemsComponent } from './pages/projects/project-items/project-items.component';
 import { EnquiriesComponent } from './pages/enquiries/enquiries.component';
 import { EnquiryItemsComponent } from './pages/enquiries/enquiry-items/enquiry-items.component';
+import { LoginComponent } from './common/login/login.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { EnquiryItemsComponent } from './pages/enquiries/enquiry-items/enquiry-i
     EnquiryFormComponent,
     ProjectItemsComponent,
     EnquiriesComponent,
-    EnquiryItemsComponent
+    EnquiryItemsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
